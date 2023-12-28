@@ -1,7 +1,7 @@
 {
     "featured": [
         "tpos",
-        "jukebox",
+        "splitpayments",
         "gerty",
         "usermanager",
         "lnticket"
@@ -300,6 +300,16 @@
             "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
             "archive": "https://github.com/lnbits/splitpayments/archive/refs/tags/v0.1.2.zip",
             "hash": "2144aac7999924c336920e47bff4b4a719fac5e2190dc62a3d0903d31a29c332"
+        },
+        {
+            "id": "splitpayments",
+            "repo": "https://github.com/Opago-Pay/splitpayments",
+            "name": "Splitpayments",
+            "version": "0.1.3",
+            "short_description": "Split incoming payments across wallets",
+            "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
+            "archive": "https://github.com/Opago-Pay/splitpayments/archive/refs/tags/0.1.3.zip",
+            "hash": ""
         },
         {
             "id": "boltz",
