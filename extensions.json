@@ -16,7 +16,7 @@
             "short_description": "Create static payment links",
             "icon": "https://github.com/lnbits/lnurlp/raw/main/static/image/lnurl-pay.png",
             "archive": "https://github.com/Opago-Pay/lnurlp/archive/refs/tags/v0.4.5.zip",
-            "hash": "a2f5fdf748d87f23baa872910e56e83f12d55a33bb9c0064c6755e051f3d7ce8"
+            "hash": ""
         },
         {
             "id": "splitpayments",
