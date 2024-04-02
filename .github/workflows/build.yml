@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: artifacts
-        path: *
+        path: .
 
   release:
     needs: build
