@@ -95,7 +95,7 @@
             "name": "Bringin",
             "version": "testing",
             "short_description": "Offramp via LNaddress",
-            "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
+            "icon": "https://bringin.xyz/wp-content/uploads/2023/11/Frame-7483-1.png",
             "archive": "https://github.com/MichaelAntonFischer/lnbits-bringin/archive/refs/tags/testing.zip",
             "hash": ""
         }
