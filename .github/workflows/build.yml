@@ -1,0 +1,73 @@
+name: Release Workflow
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    # Add steps to install dependencies, build, and test your project here
+    - name: Install dependencies
+      run: echo "Add command to install dependencies"
+
+    - name: Build
+      run: echo "Add command to build/package your project"
+
+  # This step assumes that your build script outputs artifacts that you want to include in your release.
+  # Adjust the path to where your artifacts are stored.
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: artifacts
+        path: path/to/artifacts/*
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: artifacts
+        path: path/to/artifacts
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+        body: "Description of the release"
+
+    # Upload Release Asset
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./path/to/artifacts/your-artifact.zip
+        asset_name: your-artifact.zip
+        asset_content_type: application/zip
