@@ -1,1 +1,63 @@
-ewogICAgImZlYXR1cmVkIjogWwogICAgICAgICJ0cG9zIiwKICAgICAgICAic3BsaXRwYXltZW50cyIsCiAgICAgICAgImdlcnR5IiwKICAgICAgICAidXNlcm1hbmFnZXIiLAogICAgICAgICJsbnRpY2tldCIKICAgIF0sCiAgICAiZXh0ZW5zaW9ucyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJsbnVybHAiLAogICAgICAgICAgICAicmVwbyI6ICJodHRwczovL2dpdGh1Yi5jb20vbG5iaXRzL2xudXJscCIsCiAgICAgICAgICAgICJuYW1lIjogIkxOVVJMcCIsCiAgICAgICAgICAgICJ2ZXJzaW9uIjogIjAuNC41IiwKICAgICAgICAgICAgIm1pbl9sbmJpdHNfdmVyc2lvbiI6ICIwLjExLjIiLAogICAgICAgICAgICAic2hvcnRfZGVzY3JpcHRpb24iOiAiQ3JlYXRlIHN0YXRpYyBwYXltZW50IGxpbmtzIiwKICAgICAgICAgICAgImljb24iOiAiaHR0cHM6Ly9naXRodWIuY29tL2xuYml0cy9sbnVybHAvcmF3L21haW4vc3RhdGljL2ltYWdlL2xudXJsLXBheS5wbmciLAogICAgICAgICAgICAiYXJjaGl2ZSI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L2xudXJscC9hcmNoaXZlL3JlZnMvdGFncy92MC40LjUuemlwIiwKICAgICAgICAgICAgImhhc2giOiAiIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAiaWQiOiAibG5wb3MiLAogICAgICAgICAgICAicmVwbyI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L2xucG9zX2V4dGVuc2lvbiIsCiAgICAgICAgICAgICJuYW1lIjogIkxOUG9TIiwKICAgICAgICAgICAgInZlcnNpb24iOiAidjEuMC4xLXJjLjUiLAogICAgICAgICAgICAibWluX2xuYml0c192ZXJzaW9uIjogIjEuMS4wIiwKICAgICAgICAgICAgInNob3J0X2Rlc2NyaXB0aW9uIjogIkxpZ2h0bmluZyBQb2ludCBvZiBTYWxlIHRlcm1pbmFsIHdpdGggdGF4IGNvbXBsaWFuY2UiLAogICAgICAgICAgICAiaWNvbiI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L2xucG9zX2V4dGVuc2lvbi9yYXcvbWFpbi9zdGF0aWMvaW1hZ2UvbG5wb3MucG5nIiwKICAgICAgICAgICAgImFyY2hpdmUiOiAiaHR0cHM6Ly9naXRodWIuY29tL09wYWdvLVBheS9sbnBvc19leHRlbnNpb24vcmVsZWFzZXMvZG93bmxvYWQvdjEuMC4xLXJjLjUvbG5wb3NfZXh0ZW5zaW9uLXYxLjAuMS1yYy41LnppcCIsCiAgICAgICAgICAgICJoYXNoIjogIiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgImlkIjogInNwbGl0cGF5bWVudHMiLAogICAgICAgICAgICAicmVwbyI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L3NwbGl0cGF5bWVudHMiLAogICAgICAgICAgICAibmFtZSI6ICJTcGxpdHBheW1lbnRzIiwKICAgICAgICAgICAgInZlcnNpb24iOiAiMC4xLjEwIiwKICAgICAgICAgICAgInNob3J0X2Rlc2NyaXB0aW9uIjogIlNwbGl0IGluY29taW5nIHBheW1lbnRzIGFjcm9zcyB3YWxsZXRzIiwKICAgICAgICAgICAgImljb24iOiAiaHR0cHM6Ly9naXRodWIuY29tL2xuYml0cy9zcGxpdHBheW1lbnRzL3Jhdy9tYWluL3N0YXRpYy9pbWFnZS9zcGxpdC1wYXltZW50cy5wbmciLAogICAgICAgICAgICAiYXJjaGl2ZSI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L3NwbGl0cGF5bWVudHMvYXJjaGl2ZS9yZWZzL3RhZ3MvMC4xLjEwLnppcCIsCiAgICAgICAgICAgICJoYXNoIjogIiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgImlkIjogInNwbGl0cGF5bWVudHMiLAogICAgICAgICAgICAicmVwbyI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L3NwbGl0cGF5bWVudHMiLAogICAgICAgICAgICAibmFtZSI6ICJTcGxpdHBheW1lbnRzIiwKICAgICAgICAgICAgInZlcnNpb24iOiAiMS4xLjEiLAogICAgICAgICAgICAic2hvcnRfZGVzY3JpcHRpb24iOiAiU3BsaXQgaW5jb21pbmcgcGF5bWVudHMgYWNyb3NzIHdhbGxldHMiLAogICAgICAgICAgICAiaWNvbiI6ICJodHRwczovL2dpdGh1Yi5jb20vbG5iaXRzL3NwbGl0cGF5bWVudHMvcmF3L21haW4vc3RhdGljL2ltYWdlL3NwbGl0LXBheW1lbnRzLnBuZyIsCiAgICAgICAgICAgICJhcmNoaXZlIjogImh0dHBzOi8vZ2l0aHViLmNvbS9PcGFnby1QYXkvc3BsaXRwYXltZW50cy9hcmNoaXZlL3JlZnMvdGFncy8xLjEuMS56aXAiLAogICAgICAgICAgICAiaGFzaCI6ICIiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6ICJzcGxpdHBheW1lbnRzIiwKICAgICAgICAgICAgInJlcG8iOiAiaHR0cHM6Ly9naXRodWIuY29tL09wYWdvLVBheS9zcGxpdHBheW1lbnRzIiwKICAgICAgICAgICAgIm5hbWUiOiAiU3BsaXRwYXltZW50cyIsCiAgICAgICAgICAgICJ2ZXJzaW9uIjogInN0YXRpYy1yZWxlYXNlIiwKICAgICAgICAgICAgInNob3J0X2Rlc2NyaXB0aW9uIjogIlNwbGl0IGluY29taW5nIHBheW1lbnRzIGFjcm9zcyB3YWxsZXRzIiwKICAgICAgICAgICAgImljb24iOiAiaHR0cHM6Ly9naXRodWIuY29tL2xuYml0cy9zcGxpdHBheW1lbnRzL3Jhdy9tYWluL3N0YXRpYy9pbWFnZS9zcGxpdC1wYXltZW50cy5wbmciLAogICAgICAgICAgICAiYXJjaGl2ZSI6ICJodHRwczovL2dpdGh1Yi5jb20vT3BhZ28tUGF5L3NwbGl0cGF5bWVudHMvYXJjaGl2ZS9yZWZzL3RhZ3Mvc3RhdGljLXJlbGVhc2UuemlwIiwKICAgICAgICAgICAgImhhc2giOiAiIgogICAgICAgIH0KICAgIF0KfQ==
+{
+    "featured": [
+        "tpos",
+        "splitpayments",
+        "gerty",
+        "usermanager",
+        "lnticket"
+    ],
+    "extensions": [
+        {
+            "id": "lnurlp",
+            "repo": "https://github.com/lnbits/lnurlp",
+            "name": "LNURLp",
+            "version": "0.4.5",
+            "min_lnbits_version": "0.11.2",
+            "short_description": "Create static payment links",
+            "icon": "https://github.com/lnbits/lnurlp/raw/main/static/image/lnurl-pay.png",
+            "archive": "https://github.com/Opago-Pay/lnurlp/archive/refs/tags/v0.4.5.zip",
+            "hash": ""
+        },
+        {
+            "id": "lnpos",
+            "repo": "https://github.com/Opago-Pay/lnpos_extension",
+            "name": "LNPoS",
+            "version": "v1.0.1-rc.5",
+            "min_lnbits_version": "1.1.0",
+            "short_description": "Lightning Point of Sale terminal with tax compliance",
+            "icon": "https://github.com/Opago-Pay/lnpos_extension/raw/main/static/image/lnpos.png",
+            "archive": "https://github.com/Opago-Pay/lnpos_extension/releases/download/v1.0.1-rc.5/lnpos_extension-v1.0.1-rc.5.zip",
+            "hash": ""
+        },
+        {
+            "id": "splitpayments",
+            "repo": "https://github.com/Opago-Pay/splitpayments",
+            "name": "Splitpayments",
+            "version": "0.1.10",
+            "short_description": "Split incoming payments across wallets",
+            "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
+            "archive": "https://github.com/Opago-Pay/splitpayments/archive/refs/tags/0.1.10.zip",
+            "hash": ""
+        },
+        {
+            "id": "splitpayments",
+            "repo": "https://github.com/Opago-Pay/splitpayments",
+            "name": "Splitpayments",
+            "version": "1.1.1",
+            "short_description": "Split incoming payments across wallets",
+            "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
+            "archive": "https://github.com/Opago-Pay/splitpayments/archive/refs/tags/1.1.1.zip",
+            "hash": ""
+        },
+        {
+            "id": "splitpayments",
+            "repo": "https://github.com/Opago-Pay/splitpayments",
+            "name": "Splitpayments",
+            "version": "static-release",
+            "short_description": "Split incoming payments across wallets",
+            "icon": "https://github.com/lnbits/splitpayments/raw/main/static/image/split-payments.png",
+            "archive": "https://github.com/Opago-Pay/splitpayments/archive/refs/tags/static-release.zip",
+            "hash": ""
+        }
+    ]
+}
